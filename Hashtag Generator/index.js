@@ -1,7 +1,13 @@
 // create hashtag array with all the hashtags 
 let hashtagArray = ["animation", "redshift", "3dart", "cgart", "c4d", "dailyrender",
     "daily3d", "cinema4d", "motiongraphics", "motiondesign", "graphicdesign", "digitalart", "3dillustration",
-    "3dcd", "rendering", "3dchallenge", "designchallenge", "3dartist"];
+    "3dcd", "rendering", "3dchallenge", "designchallenge", "3dartist", "artistsoninstagram", "creative", "artwork", "digitalartwork",
+    "3dmodel", "3dmodeling", "animation", "3danimation", "3dcommunity", "3d", "3ddesign", "3dvisualization", "3dmodelling",
+    "3dartwork", "3dvisualisation", "digitalartist", "concept", "graphics", "visual", "visuals", "motiondesigner", "motiondesigners",
+    "cinema4dart", "cinema4drender", "digitalillustration", "maxon3d", "motiongraphicscollective", "mgcollective", "mographics",
+    "mograph", "mdcommunity", "redshift3d", "c4render", "c4dart", "bestvisualz", "digitalnatives", "computergenerated",
+    "eyeondesign", "artportfolio", "daily3d", "motionlovers", "daily3d", "redshiftrender", "abstract3d", "dailyrenderc4d", "creativedesign",
+    "3ddesigner", "motionmood", "motiongrapher", "motionart", "typemotion"];
 
 // variable that counts the number of elements of an array 
 var arrayLength = hashtagArray.length;
@@ -40,7 +46,13 @@ setTimeout(function () {
     $("h2").text(finalTags);
 }, 500)
 
-// COPY HASHTAGS ON CLICK
+// COPY HASHTAGS ON CLICK and add clarification about this functionality 
 
+// rework the prompt feature into the input and output fields 
 
+// divide website into different cetagories - generate hashtags for each 
+// pick hashtags from 3 different popularity subcategories 
+
+// motiondesign // characterart // abstract3d // 3dprint //typemotion (typegang, typeinmotion, typography)
+// "", "", "", "", "", "", "", "", "", "", "",
 
