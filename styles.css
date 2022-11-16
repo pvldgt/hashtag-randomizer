@@ -17,10 +17,10 @@ h1 {
 h2 {
     color: #393E46;
     padding: 5%;
-    margin: 2% 20% 5%;
+    margin: 2% 10% 5%;
     border: dotted 2px #6D9886;
     background-color: #f7f7f78e;
     font-family: "Roboto", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 400;
 }
