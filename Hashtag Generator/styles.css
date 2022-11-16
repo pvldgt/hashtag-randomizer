@@ -1,0 +1,26 @@
+/* #hashtags textarea {
+    resize: none;
+} */
+
+body {
+    text-align: center;
+    background-color: #F2E7D5;
+}
+
+h1 {
+    color: #558773;
+    margin: 17% 20% 5%;
+    font-family: "Roboto Slab", serif;
+    font-size: 3rem;
+}
+
+h2 {
+    color: #393E46;
+    padding: 5%;
+    margin: 2% 20% 5%;
+    border: dotted 2px #6D9886;
+    background-color: #f7f7f78e;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
