@@ -41,8 +41,28 @@ setTimeout(function () {
         return finalString;
     }
     let finalTags = createHashtags();
-    $("h2").text(finalTags);
+    // insert the finalTags string into the text area 
+    $("#hashtag-text").val(finalTags);
 }, 500)
+
+
+
+///when copy button clicked add class for 2 seconds 
+
+let button = $(".button-copy")
+
+button.click(function () {
+    // let copyText = document.getElementById("hashtag-text").value;
+    // navigator.clipboard.writeText(copyText)
+
+    // select the text in the text area 
+    let newClip = $("#hashtag-text").val();
+    // copy the text 
+    navigator.clipboard.writeText(newClip)
+})
+
+
+// How to make textarea size adjustable? 
 
 // COPY HASHTAGS ON CLICK and add clarification about this functionality 
 
