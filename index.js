@@ -9,8 +9,6 @@ let hashtagArray = ["animation", "redshift", "3dart", "cgart", "c4d", "dailyrend
     "eyeondesign", "artportfolio", "daily3d", "motionlovers", "daily3d", "redshiftrender", "abstract3d", "dailyrenderc4d", "creativedesign",
     "3ddesigner", "motionmood", "motiongrapher", "motionart", "typemotion"];
 
-// variable that counts the number of elements of an array 
-var arrayLength = hashtagArray.length;
 
 // create function that picks out a random number of hashtags specified as a parameter 
 function getRandomHashtags(array, number) {
@@ -29,9 +27,9 @@ function getRandomHashtags(array, number) {
 
 
 setTimeout(function () {
-    let userAmount = prompt(`How may hashtags would you like? The maximum amount is ${hashtagArray.length}`)
-    if (!(userAmount > 0 && userAmount <= hashtagArray.length)) {
-        userAmount = prompt(`Go again! How may hashtags would you like? The maximum amount is ${hashtagArray.length}`)
+    let userAmount = prompt(`How many hashtags would you like? The maximum amount is ${hashtagArray.length}`)
+    while (!(userAmount > 0 && userAmount <= hashtagArray.length)) {
+        userAmount = prompt(`Go again! How many hashtags would you like? The maximum amount is ${hashtagArray.length}`)
     }
     let randomArray = getRandomHashtags(hashtagArray, userAmount);
 
