@@ -48,19 +48,31 @@ setTimeout(function () {
 
 
 ///when copy button clicked add class for 2 seconds 
-
 let button = $(".button-copy")
-
 button.click(function () {
-    // let copyText = document.getElementById("hashtag-text").value;
-    // navigator.clipboard.writeText(copyText)
-
     // select the text in the text area 
     let newClip = $("#hashtag-text").val();
     // copy the text 
     navigator.clipboard.writeText(newClip)
+    // add visual response in the form of a text 'Copied!' and style change
+    $(".button-copy").addClass("copied");
+    $(".button-copy").text("Copied!");
+    setTimeout(function () {
+        $(".button-copy").removeClass("copied");
+        $(".button-copy").text("Copy");
+    }, 1000)
 })
 
+// resizing the textarea window 
+// textarea = document.querySelector("#hashtag-text");
+// textarea.addEventListener('input', autoResize, false);
+
+// function autoResize() {
+//     this.style.height = 'auto';
+//     this.style.height = this.scrollHeight + 'px';
+// }
+
+// add class when copied for 2 s 
 
 // How to make textarea size adjustable? 
 

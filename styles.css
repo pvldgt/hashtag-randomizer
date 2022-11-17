@@ -9,7 +9,7 @@ body {
 
 h1 {
     color: #558773;
-    margin: 17% 20% 5%;
+    margin: 13% 20% 3%;
     font-family: "Roboto Slab", serif;
     font-size: 3rem;
 }
@@ -21,8 +21,9 @@ h1 {
 }
 
 #hashtag-text {
+    text-align: center;
     color: #393E46;
-    padding: 3%;
+    padding: 1% 2%;
     margin: 2% 10% 2%;
     border: dotted 2px #6D9886;
     border-radius: 24px;
@@ -30,6 +31,12 @@ h1 {
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
     font-weight: 400;
+    /* make sure the textarea doesn't go outside of the screen */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 70%;
+
 }
 
 
@@ -77,33 +84,3 @@ h1 {
     background: #F6F9FE;
     color: #558773;
 }
-
-/* .button-17:active {
-    box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
-    outline: none;
-} */
-
-/* .button-17:focus {
-    outline: none;
-    border: 2px solid #4285f4;
-}
-
-.button-17:not(:disabled) {
-    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
-}
-
-.button-17:not(:disabled):hover {
-    box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
-}
-
-.button-17:not(:disabled):focus {
-    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
-}
-
-.button-17:not(:disabled):active {
-    box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
-}
-
-.button-17:disabled {
-    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
-} */
